@@ -17,6 +17,7 @@ public class AddController {
     public int add(@RequestParam int a,
                    @RequestParam int b,
                    @RequestParam int c) {
+        System.out.println("*****************");
         System.out.println("CI/CD triggered...");
         System.out.println("*****************");
         return addService.add(a, b, c);
