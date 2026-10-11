@@ -18,6 +18,7 @@ public class AddController {
                    @RequestParam int b,
                    @RequestParam int c) {
         System.out.println("*****************");
+        System.out.println("*****************");
         System.out.println("CI/CD triggered...");
         System.out.println("*****************");
         System.out.println("*****************");
