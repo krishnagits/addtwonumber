@@ -14,7 +14,10 @@ public class AddController {
     }
 
     @GetMapping("/add")
-    public int add(@RequestParam int a, @RequestParam int b) {
-        return addService.add(a, b);
+    public int add(@RequestParam int a,
+                   @RequestParam int b,
+                   @RequestParam int c) {
+        System.out.println("CI/CD triggered...");
+        return addService.add(a, b, c);
     }
 }
