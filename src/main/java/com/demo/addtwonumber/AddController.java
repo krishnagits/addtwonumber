@@ -20,6 +20,7 @@ public class AddController {
         System.out.println("*****************");
         System.out.println("CI/CD triggered...");
         System.out.println("*****************");
+        System.out.println("*****************");
         return addService.add(a, b, c);
     }
 }
